@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.vercte.endlock.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EnderEyeItemMixin",
+    "EndPortalBlockMixin"
+  ],
+  "client": [
+    "client.TheEndPortalRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
